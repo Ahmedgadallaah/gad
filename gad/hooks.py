@@ -1,8 +1,8 @@
 app_name = "gad"
-app_title = "Gad"
-app_publisher = "Gad"
-app_description = "Gad"
-app_email = "Gad@gmail.com"
+app_title = "gad"
+app_publisher = "gad"
+app_description = "gad"
+app_email = "gad@gmail.com"
 app_license = "mit"
 # required_apps = []
 
