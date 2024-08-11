@@ -10,11 +10,11 @@
   "section_break_wusv",
   "\u0627\u0644\u0637\u0631\u0641_\u0627\u0644\u0623\u0648\u0644_column",
   "company_name",
-  "security_license",
   "contract_type",
+  "security_license",
   "column_break_qgia",
   "customer_name",
-  "slug_customer_name",
+  "project_name",
   "commercial_record",
   "commercial_activity",
   "section_break_qnux",
@@ -63,13 +63,6 @@
    "reqd": 1
   },
   {
-   "fieldname": "security_license",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "\u0631\u0642\u0645 \u0627\u0644\u062a\u0631\u062e\u064a\u0635 \u0627\u0644\u0623\u0645\u0646\u064a \u0644\u0644\u0637\u0631\u0641 \u0627\u0644\u0623\u0648\u0644",
-   "reqd": 1
-  },
-  {
    "default": "\u0639\u0642\u062f \u0635\u064a\u0627\u0646\u0629 \u0633\u0646\u0648\u064a \u0645\u0642\u0627\u0628\u0644 \u0623\u062c\u0631",
    "fieldname": "contract_type",
    "fieldtype": "Select",
@@ -94,27 +87,6 @@
    "in_standard_filter": 1,
    "label": "\u0625\u0633\u0645 \u0634\u0631\u0643\u0629 \u0627\u0644\u0637\u0631\u0641 \u0627\u0644\u062b\u0627\u0646\u064a",
    "options": "Customer"
-  },
-  {
-   "bold": 1,
-   "fieldname": "slug_customer_name",
-   "fieldtype": "Data",
-   "label": "\u0625\u0633\u0645 \u0627\u0644\u0645\u0634\u0631\u0648\u0639",
-   "reqd": 1
-  },
-  {
-   "bold": 1,
-   "fieldname": "commercial_record",
-   "fieldtype": "Data",
-   "label": "\u0627\u0644\u0633\u062c\u0644 \u0627\u0644\u062a\u062c\u0627\u0631\u064a",
-   "reqd": 1
-  },
-  {
-   "bold": 1,
-   "fieldname": "commercial_activity",
-   "fieldtype": "Data",
-   "label": "\u0646\u0648\u0639 \u0627\u0644\u0646\u0634\u0627\u0637 \u0627\u0644\u062a\u062c\u0627\u0631\u064a",
-   "reqd": 1
   },
   {
    "fieldname": "section_break_qnux",
@@ -266,12 +238,38 @@
    "fieldname": "\u0627\u0644\u062a\u0641\u0627\u0635\u064a\u0644_tab",
    "fieldtype": "Tab Break",
    "label": "\u0627\u0644\u062a\u0641\u0627\u0635\u064a\u0644"
+  },
+  {
+   "bold": 1,
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "\u0625\u0633\u0645 \u0627\u0644\u0645\u0634\u0631\u0648\u0639",
+   "options": "Project",
+   "reqd": 1
+  },
+  {
+   "fieldname": "commercial_record",
+   "fieldtype": "Data",
+   "label": "\u0633\u062c\u0644 \u062a\u062c\u0627\u0631\u064a",
+   "read_only": 1
+  },
+  {
+   "fieldname": "security_license",
+   "fieldtype": "Data",
+   "label": "\u0631\u0642\u0645 \u0627\u0644\u062a\u0631\u062e\u064a\u0635 \u0627\u0644\u0623\u0645\u0646\u064a",
+   "read_only": 1
+  },
+  {
+   "fieldname": "commercial_activity",
+   "fieldtype": "Data",
+   "label": "\u0627\u0644\u0646\u0634\u0627\u0637 \u0627\u0644\u062a\u062c\u0627\u0631\u064a",
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-08-03 19:16:50.163225",
+ "modified": "2024-08-11 14:42:28.364101",
  "modified_by": "Administrator",
  "module": "gad",
  "name": "Maintenace Contract",
