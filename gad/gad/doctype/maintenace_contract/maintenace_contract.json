@@ -248,18 +248,27 @@
    "reqd": 1
   },
   {
+   "allow_in_quick_entry": 1,
+   "allow_on_submit": 1,
+   "bold": 1,
+   "fetch_from": "customer_name.commercial_record",
    "fieldname": "commercial_record",
    "fieldtype": "Data",
    "label": "\u0633\u062c\u0644 \u062a\u062c\u0627\u0631\u064a",
    "read_only": 1
   },
   {
+   "allow_on_submit": 1,
+   "bold": 1,
+   "fetch_from": "company_name.security_license",
    "fieldname": "security_license",
    "fieldtype": "Data",
    "label": "\u0631\u0642\u0645 \u0627\u0644\u062a\u0631\u062e\u064a\u0635 \u0627\u0644\u0623\u0645\u0646\u064a",
    "read_only": 1
   },
   {
+   "allow_on_submit": 1,
+   "fetch_from": "customer_name.commercial_activity",
    "fieldname": "commercial_activity",
    "fieldtype": "Data",
    "label": "\u0627\u0644\u0646\u0634\u0627\u0637 \u0627\u0644\u062a\u062c\u0627\u0631\u064a",
@@ -269,7 +278,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-08-11 14:42:28.364101",
+ "modified": "2024-08-11 17:24:42.407704",
  "modified_by": "Administrator",
  "module": "gad",
  "name": "Maintenace Contract",
